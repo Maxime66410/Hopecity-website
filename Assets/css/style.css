@@ -1,0 +1,49 @@
+body {
+  background: #872dda;
+  background: -webkit-gradient(223deg, color-stop(10%,#872dda), color-stop(100%,#1a0050));
+  background: -webkit-linear-gradient(223deg,  #872dda 10%, #1a0050 100%);
+  background:    -moz-linear-gradient(223deg,  #872dda 10%, #1a0050 100%);
+  background:     -ms-linear-gradient(223deg,  #872dda 10%, #1a0050 100%);
+  background:      -o-linear-gradient(223deg,  #872dda 10%, #1a0050 100%);
+  background:         linear-gradient(223deg, #872dda 10%, #1a0050 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#872dda', endColorstr='#1a0050',GradientType=0 );
+  background-attachment: fixed;
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 8px 0px #e184f3;
+	background-color:transparent;
+	border-radius:12px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:19px;
+	font-weight:bold;
+	padding:32px 76px;
+	text-decoration:none;
+	text-shadow:0px 1px 10px #9b14b3;
+}
+.myButton:hover {
+	background-color:transparent;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+div.centre {
+    position:absolute;
+    left: 45%;
+    top: 50%;
+    width: 200px;
+    height: 200px;
+    margin-left: -100px; /* Cette valeur doit être la moitié négative de la valeur du width */
+    margin-top: -100px; /* Cette valeur doit être la moitié négative de la valeur du height */
+}
+        
+h1{
+	color: #FFFFFF;
+	text-decoration: underline;
+	text-shadow: 1px 1px 30px black;
+}
